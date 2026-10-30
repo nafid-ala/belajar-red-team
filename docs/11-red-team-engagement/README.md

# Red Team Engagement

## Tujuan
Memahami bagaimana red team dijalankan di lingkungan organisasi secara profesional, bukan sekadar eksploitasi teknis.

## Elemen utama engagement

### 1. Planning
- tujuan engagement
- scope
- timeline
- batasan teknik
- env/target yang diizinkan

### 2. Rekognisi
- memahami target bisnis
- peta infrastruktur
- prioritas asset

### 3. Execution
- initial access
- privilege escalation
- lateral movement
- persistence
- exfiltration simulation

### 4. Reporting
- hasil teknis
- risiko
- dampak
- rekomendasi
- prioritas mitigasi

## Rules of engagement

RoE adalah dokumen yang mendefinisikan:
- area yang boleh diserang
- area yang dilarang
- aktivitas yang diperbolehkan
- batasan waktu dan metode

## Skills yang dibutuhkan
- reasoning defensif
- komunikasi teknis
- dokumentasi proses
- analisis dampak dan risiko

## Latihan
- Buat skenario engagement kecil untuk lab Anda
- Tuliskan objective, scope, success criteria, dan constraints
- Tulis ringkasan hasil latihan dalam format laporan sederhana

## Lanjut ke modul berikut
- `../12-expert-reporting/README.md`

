@@ -1,0 +1,52 @@
+docs/10-c2-opsec/README.md
+
+# C2, OPSEC, dan Evasion
+
+## Tujuan
+Memahami cara attacker's menjaga akses dan mengurangi deteksi selama operasi.
+
+## Command-and-Control (C2)
+
+C2 adalah mekanisme komunikasi antara foothold dan operator attacker. Biasanya digunakan untuk:
+- menjalankan perintah
+- mengumpulkan data
+- menjaga akses
+
+### C2 framework populer
+- Mythic
+- Sliver
+- Empire
+- Cobalt Strike
+- Havoc
+
+## OPSEC
+
+OPSEC adalah praktek untuk menurunkan peluang deteksi.
+
+### Prinsip dasar
+- hindari traffic mencurigakan
+- batasi command execution
+- gunakan teknik yang sesuai dengan target
+- hindari penggunaan payload yang terlalu noisy
+
+## Evasion
+
+- obfuscation
+- bypass AV / EDR
+- payload stager
+- in-memory execution
+- process injection
+
+## Catatan penting
+
+OPSEC dan evasion bukan tujuan akhir. Fokusnya adalah mengelola risiko operasional dan menjaga efektivitas attack sendiri. Dalam konteks pendidikan, Anda harus selalu belajar dengan membatasi ruang lingkup dan menggunakan lab.
+
+## Latihan
+- Pahami perbedaan antara payload noisy dan stealth
+- Catat mekanisme deteksi dasar di sistem keamanan
+- Tulis ringkasan risiko dari payload yang terlalu agresif
+
+## Lanjut ke modul berikut
+- `../11-red-team-engagement/README.md`
+- `../12-expert-reporting/README.md`
+

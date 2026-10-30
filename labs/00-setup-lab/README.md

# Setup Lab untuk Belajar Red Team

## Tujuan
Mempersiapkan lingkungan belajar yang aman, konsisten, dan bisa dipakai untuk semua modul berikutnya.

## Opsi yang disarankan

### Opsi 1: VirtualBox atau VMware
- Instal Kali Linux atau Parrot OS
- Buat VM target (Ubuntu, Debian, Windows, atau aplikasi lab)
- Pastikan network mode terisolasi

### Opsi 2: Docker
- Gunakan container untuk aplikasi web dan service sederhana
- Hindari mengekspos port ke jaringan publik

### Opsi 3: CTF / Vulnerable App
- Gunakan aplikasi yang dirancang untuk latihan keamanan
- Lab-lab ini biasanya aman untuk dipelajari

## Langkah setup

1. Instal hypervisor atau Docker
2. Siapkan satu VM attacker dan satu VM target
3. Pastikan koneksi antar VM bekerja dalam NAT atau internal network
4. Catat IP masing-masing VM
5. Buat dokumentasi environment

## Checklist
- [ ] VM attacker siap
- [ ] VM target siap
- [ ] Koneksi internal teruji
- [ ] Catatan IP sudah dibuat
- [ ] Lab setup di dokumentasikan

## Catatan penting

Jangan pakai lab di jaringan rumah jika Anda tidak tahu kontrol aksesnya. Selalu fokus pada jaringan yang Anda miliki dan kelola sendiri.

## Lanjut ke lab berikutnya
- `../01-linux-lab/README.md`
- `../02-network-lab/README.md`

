@@ -1,0 +1,48 @@
+docs/12-expert-reporting/README.md
+
+# Reporting dan Debrief Profesional
+
+## Tujuan
+Mengubah hasil teknik menjadi laporan yang bisa dimengerti oleh audiens bisnis dan teknis.
+
+## Struktur laporan umum
+
+### Executive Summary
+- ringkasan kondisi umum
+- kategori risiko
+- dampak secara bisnis
+
+### Technical Findings
+- target
+- teknik yang digunakan
+- bukti
+- konsekuensi
+- rekomendasi
+
+### Risk Assessment
+- kemungkinan eksploitasi
+- tingkat dampak
+- tingkat kesulitan
+
+### Mitigation Recommendations
+- segmen prioritas
+- langkah keamanan berikutnya
+- pencegahan dan monitoring
+
+## Tips laporan
+- Jelas, ringkas, dan faktual
+- Hindari bahasa yang tidak perlu menakutkan
+- Sertakan bukti yang relevan
+- Tuliskan rekomendasi yang bisa dikerjakan team keamanan
+
+## Debrief
+- Diskusikan apa yang berhasil dan gagal
+- Jelaskan keputusan teknik
+- Tinjau mitigasi yang tersedia
+- Catat pembelajaran untuk iterasi berikutnya
+
+## Latihan
+- Tulis laporan dari salah satu lab yang pernah Anda jalankan
+- Gunakan format: Objective, Method, Result, Risk, Recommendation
+- Simulasikan debrief seperti situasi profesional
+

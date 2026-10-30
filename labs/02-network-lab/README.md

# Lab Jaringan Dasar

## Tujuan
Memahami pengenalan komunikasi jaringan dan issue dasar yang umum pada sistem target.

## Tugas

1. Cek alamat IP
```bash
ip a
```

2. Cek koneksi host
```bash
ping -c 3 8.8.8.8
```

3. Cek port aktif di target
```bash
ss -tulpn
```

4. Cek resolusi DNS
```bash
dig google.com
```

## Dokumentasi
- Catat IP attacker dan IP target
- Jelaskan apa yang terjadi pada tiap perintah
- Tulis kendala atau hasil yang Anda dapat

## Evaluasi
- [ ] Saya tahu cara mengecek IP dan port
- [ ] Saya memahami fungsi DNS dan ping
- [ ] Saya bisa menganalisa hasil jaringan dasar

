@@ -1,0 +1,46 @@
+labs/01-linux-lab/README.md
+
+# Lab Linux Dasar
+
+## Tujuan
+Membiasakan diri dengan terminal Linux, permission, proses, dan struktur sistem.
+
+## Tugas
+
+1. Masuk ke VM Linux
+2. Jalankan perintah berikut:
+
+```bash
+whoami
+id
+pwd
+ls -la
+cat /etc/os-release
+ps aux --forest
+```
+
+3. Buat file baru di home directory
+```bash
+touch latihan_redteam.txt
+ls -l latihan_redteam.txt
+chmod 600 latihan_redteam.txt
+ls -l latihan_redteam.txt
+```
+
+4. Buat script bash sederhana
+
+```bash
+#!/bin/bash
+echo "Selamat datang di lab Linux"
+```
+
+## Catatan
+- Catat output dari perintah
+- Jelaskan arti dari file permission
+- Tuliskan pengamatan Anda dalam file notes
+
+## Evaluasi
+- [ ] Saya tahu `whoami`, `id`, `ls`, `ps`
+- [ ] Saya mengerti file permissions dasar
+- [ ] Saya bisa menjalankan script shell sederhana
+

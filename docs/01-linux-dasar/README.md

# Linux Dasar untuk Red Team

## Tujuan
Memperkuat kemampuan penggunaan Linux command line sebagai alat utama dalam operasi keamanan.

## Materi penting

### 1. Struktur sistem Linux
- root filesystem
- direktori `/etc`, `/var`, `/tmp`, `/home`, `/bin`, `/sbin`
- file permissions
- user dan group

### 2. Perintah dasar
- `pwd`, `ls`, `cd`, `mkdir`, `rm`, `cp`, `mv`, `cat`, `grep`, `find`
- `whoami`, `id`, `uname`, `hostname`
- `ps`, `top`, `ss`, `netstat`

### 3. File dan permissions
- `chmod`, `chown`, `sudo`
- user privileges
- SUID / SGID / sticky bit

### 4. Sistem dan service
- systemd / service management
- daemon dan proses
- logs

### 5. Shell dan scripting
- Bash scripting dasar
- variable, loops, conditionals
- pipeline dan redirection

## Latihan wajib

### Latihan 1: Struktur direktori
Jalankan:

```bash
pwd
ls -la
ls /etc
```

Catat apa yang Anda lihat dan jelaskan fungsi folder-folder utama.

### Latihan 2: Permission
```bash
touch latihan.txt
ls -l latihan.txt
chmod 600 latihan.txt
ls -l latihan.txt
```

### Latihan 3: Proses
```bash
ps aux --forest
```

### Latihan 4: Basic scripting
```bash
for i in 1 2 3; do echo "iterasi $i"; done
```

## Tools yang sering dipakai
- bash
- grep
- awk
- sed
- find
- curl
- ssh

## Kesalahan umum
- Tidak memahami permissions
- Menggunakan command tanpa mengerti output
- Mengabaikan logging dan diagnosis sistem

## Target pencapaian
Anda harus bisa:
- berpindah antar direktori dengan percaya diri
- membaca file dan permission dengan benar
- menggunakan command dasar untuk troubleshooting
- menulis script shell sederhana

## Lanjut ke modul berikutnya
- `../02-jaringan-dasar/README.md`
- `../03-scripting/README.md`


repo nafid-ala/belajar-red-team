@@ -1,0 +1,89 @@
+# Dokumentasi Etika dan Legalitas
+
+## Mengapa topik ini penting?
+
+Red team sering kali berhubungan dengan penetrasi sistem dan teknik ofensif. Tanpa pemahaman legal dan etika, skill yang Anda miliki dapat berubah menjadi ancaman nyata. Oleh karena itu, semua belajar harus dilakukan dalam kerangka yang aman, jelas, dan berizin.
+
+## Prinsip utama
+
+### 1. Selalu punya izin
+Sebelum mencoba mengeksplorasi target, pastikan Anda:
+- memiliki izin eksplorasi
+- menyepakati scope
+- memahami rules of engagement (RoE)
+
+### 2. Gunakan lab yang aman
+Pilihan terbaik:
+- VM lokal
+- CTF
+- lab virtual yang dikelola Anda sendiri
+- sistem yang disediakan sebagai target latihan
+
+### 3. Jangan menyerang sistem orang lain
+Hindari:
+- target produksi tanpa izin
+- target milik organisasi tanpa persetujuan
+- sistem publik tanpa legal basis
+
+### 4. Fokus pada edukasi
+Tujuan pembelajaran:
+- memahami sistem
+- melihat potensi kerentanan
+- belajar mitigasi
+- membangun skill dengan cara yang profesional
+
+## Rules of Engagement (RoE)
+
+RoE biasanya mencakup:
+- scope target
+- batasan waktu
+- teknik yang diperbolehkan
+- jenis aktivitas yang dilarang
+- mekanisme pelaporan hasil
+
+## Etika dalam praktik
+
+- Tulis dokumentasi aktivitas
+- Gunakan batang kejujuran dan profesionalisme
+- Jangan menyalahgunakan akses yang diperoleh
+- Jangan menimbulkan kerusakan atau data loss yang tidak perlu
+- Hindari menjalankan eksploitasi yang tidak diperlukan
+
+## Dunia profesional
+
+Dalam lingkungan profesional, red team bukan sekadar attack simulation. Ini adalah proses:
+- pengujian keamanan
+- evaluasi mitigasi
+- pemetaan risiko
+- penyiapan rekomendasi
+
+## Aktivitas yang harus dihindari
+
+- scanning sistem tanpa izin
+- eksploitasi ke sistem publik tanpa legal basis
+- menyebarkan informasi sensitif atau credential
+- mengganggu layanan operasional
+
+## Praktik aman untuk belajar
+
+- pakai VM lokal
+- gunakan lab Docker / Vagrant / VirtualBox
+- jalankan tools di network isolated
+- selalu buat checkpoint sebelum perubahan sistem
+
+## Reflection
+
+Skill red team bukan hanya tentang bisa masuk ke sistem. Skill yang benar-benar berguna adalah kemampuannya untuk menjaga etika, menghormati izin, dan menambah keamanan lingkungan secara profesional.
+
+## Latihan kecil
+
+- Buat catatan: “Target saya, izin saya, tujuan saya, ruang lingkup saya.”
+- Identifikasi satu lab yang aman untuk digunakan dalam 30 hari ke depan.
+- Tulis pengertian RoE dalam bahasa Anda sendiri.
+
+## Lanjuan
+
+- `../01-linux-dasar/README.md`
+- `../02-jaringan-dasar/README.md`
+- `../03-scripting/README.md`
+

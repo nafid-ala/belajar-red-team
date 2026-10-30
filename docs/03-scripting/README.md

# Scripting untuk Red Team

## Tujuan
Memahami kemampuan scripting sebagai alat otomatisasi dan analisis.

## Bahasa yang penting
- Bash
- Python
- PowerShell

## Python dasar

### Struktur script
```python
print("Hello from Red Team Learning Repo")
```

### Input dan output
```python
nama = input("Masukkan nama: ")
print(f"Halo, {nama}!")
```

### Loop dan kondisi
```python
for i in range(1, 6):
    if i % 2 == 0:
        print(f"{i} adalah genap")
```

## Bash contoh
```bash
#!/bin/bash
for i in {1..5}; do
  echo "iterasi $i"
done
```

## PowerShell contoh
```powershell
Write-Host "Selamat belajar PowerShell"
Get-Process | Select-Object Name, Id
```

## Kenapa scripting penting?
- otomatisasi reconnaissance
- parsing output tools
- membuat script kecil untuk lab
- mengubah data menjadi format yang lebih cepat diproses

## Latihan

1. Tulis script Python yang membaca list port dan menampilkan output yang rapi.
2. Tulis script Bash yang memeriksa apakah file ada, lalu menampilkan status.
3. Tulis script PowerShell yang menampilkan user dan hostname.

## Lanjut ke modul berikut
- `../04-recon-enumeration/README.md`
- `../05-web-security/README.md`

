@@ -1,0 +1,72 @@
+docs/02-jaringan-dasar/README.md
+
+# Jaringan Dasar untuk Red Team
+
+## Tujuan
+Memahami lapisan jaringan yang menjadi dasar dari semua aktivitas recon, scanning, dan exploitation.
+
+## Topik utama
+
+### 1. Model OSI dan TCP/IP
+- Layer 1 sampai 7
+- Fungsi dasar per layer
+- Hubungan antara IP, TCP, UDP, HTTP, DNS
+
+### 2. IP dan subnet
+- IPv4, IPv6
+- subnetting sederhana
+- CIDR
+- routing dasar
+
+### 3. Protocol dasar
+- ICMP
+- TCP
+- UDP
+- DNS
+- HTTP/HTTPS
+
+### 4. Praktik tools
+- `ping`
+- `traceroute`
+- `ip a`
+- `ss -tulpn`
+- `curl`
+- `nslookup` / `dig`
+
+## Latihan
+
+### Latihan 1: Cek interface
+```bash
+ip a
+```
+
+### Latihan 2: Cari port terbuka
+```bash
+ss -tulpn | head
+```
+
+### Latihan 3: Cek DNS
+```bash
+dig google.com
+```
+
+### Latihan 4: Cek konektivitas dasar
+```bash
+ping -c 3 8.8.8.8
+```
+
+## Catatan penting
+
+- Scanner harus dijalankan di jaringan yang dikenal dan aman
+- Pahami perbedaan host discovery vs port scanning
+- Penting untuk membedakan koneksi normal dan aktivitas mencurigakan
+
+## Output belajar
+- Mampu menjelaskan fungsi IP, route, DNS, dan port
+- Mampu menafsirkan hasil `ping`, `ss`, dan `curl`
+- Mampu memahami bagaimana target diidentifikasi di jaringan
+
+## Lanjut ke modul berikut
+- `../03-scripting/README.md`
+- `../04-recon-enumeration/README.md`
+

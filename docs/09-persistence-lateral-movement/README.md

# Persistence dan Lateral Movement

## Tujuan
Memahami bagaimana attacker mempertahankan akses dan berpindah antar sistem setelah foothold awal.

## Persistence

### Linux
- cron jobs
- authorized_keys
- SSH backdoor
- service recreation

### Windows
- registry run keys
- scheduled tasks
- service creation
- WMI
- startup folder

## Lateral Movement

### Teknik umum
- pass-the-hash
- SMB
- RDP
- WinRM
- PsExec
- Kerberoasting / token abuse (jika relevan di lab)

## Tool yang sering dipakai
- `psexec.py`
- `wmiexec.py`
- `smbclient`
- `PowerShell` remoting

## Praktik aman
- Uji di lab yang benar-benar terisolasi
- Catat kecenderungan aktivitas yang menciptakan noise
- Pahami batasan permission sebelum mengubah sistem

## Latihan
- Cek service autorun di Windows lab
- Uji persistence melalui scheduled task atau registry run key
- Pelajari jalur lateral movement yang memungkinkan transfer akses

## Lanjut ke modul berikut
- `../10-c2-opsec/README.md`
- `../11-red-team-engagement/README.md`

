@@ -1,0 +1,48 @@
+docs/08-active-directory/README.md
+
+# Active Directory dan Kerberos
+
+## Tujuan
+Memahami lingkungan Windows enterprise dan bagaimana domain controller, users, permission, dan trust relationships bekerja.
+
+## Ukuran konsep penting
+
+### Active Directory basics
+- domain controller
+- users, groups, organizational units
+- trust relationships
+- GPO
+
+### Kerberos
+- TGT dan TGS
+- SPN
+- ticketing model
+- service account
+
+### Tools populer
+- `BloodHound`
+- `PowerView`
+- `Rubeus`
+- `CrackMapExec`
+- `Impacket`
+
+## Praktik umum
+- enumerasi pengguna dan group
+- mapping ACL dan group memberships
+- memeriksa service accounts dan SPN
+- memeriksa trust relationships
+
+## Latihan
+- Jalankan enumerasi user pada lab AD yang aman
+- Pelajari bagaimana service account dapat menjadi target menarik
+- Gunakan BloodHound untuk melihat attack path
+
+## Catatan penting
+- AD adalah area kompleks, jangan terburu-buru
+- Fokus pada permission model dan trust
+- Lateral movement sering kali dimulai dari data AD yang dikumpulkan
+
+## Lanjut ke modul berikut
+- `../09-persistence-lateral-movement/README.md`
+- `../10-c2-opsec/README.md`
+

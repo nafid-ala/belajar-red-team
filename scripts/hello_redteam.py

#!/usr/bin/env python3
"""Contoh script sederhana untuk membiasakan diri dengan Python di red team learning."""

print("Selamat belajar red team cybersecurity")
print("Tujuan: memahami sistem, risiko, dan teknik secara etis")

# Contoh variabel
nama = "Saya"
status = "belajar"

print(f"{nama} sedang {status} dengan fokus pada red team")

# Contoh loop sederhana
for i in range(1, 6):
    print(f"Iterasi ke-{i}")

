@@ -1,0 +1,45 @@
+checklists/progress.md
+
+# Checklist Progres Belajar
+
+## Tahap 1: Basic
+- [ ] Saya memahami etika keamanan dan legalitas
+- [ ] Saya bisa menjalankan perintah Linux dasar
+- [ ] Saya menangkap konsep jaringan dasar
+- [ ] Saya memahami file permission
+- [ ] Saya bisa menulis script shell sederhana
+
+## Tahap 2: Recon dan Web
+- [ ] Saya bisa menjalankan Nmap
+- [ ] Saya paham scan dan enumeration
+- [ ] Saya dapat membaca response HTTP
+- [ ] Saya memahami vulnerability umum web
+- [ ] Saya bisa mencatat hasil recon dengan rapi
+
+## Tahap 3: Exploit dan Privilege
+- [ ] Saya tahu apa itu payload
+- [ ] Saya memahami reverse shell dasar
+- [ ] Saya paham privilege escalation dasar
+- [ ] Saya bisa menilai hasil post-exploitation
+- [ ] Saya memahami bagaimana sistem bisa dimanfaatkan
+
+## Tahap 4: Advanced Red Team
+- [ ] Saya memahami AD dan trust domain
+- [ ] Saya paham persistence dan lateral movement
+- [ ] Saya mengetahui konsep OPSEC
+- [ ] Saya memahami C2 secara umum
+- [ ] Saya bisa menulis laporan hasil latihan
+
+## Tahap 5: Profesional
+- [ ] Saya bisa merancang engagement kecil
+- [ ] Saya bisa menuliskan scope, objective, dan constraints
+- [ ] Saya bisa menyiapkan laporan yang jelas
+- [ ] Saya bisa membahas hasil latihan secara profesional
+- [ ] Saya dapat menghubungkan teknik dengan risiko dan mitigasi
+
+## Catatan pribadi
+- Target saat ini: 
+- Topik yang paling sulit: 
+- Topik yang paling mudah: 
+- Rencana minggu depan: 
+
